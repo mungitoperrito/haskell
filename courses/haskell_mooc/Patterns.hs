@@ -16,3 +16,7 @@ main = do
     print (greet "Finland" "Juha")
     print (greet "Russia" "Vlad")
     print (greet "England" "Graham")
+
+    -- show casts value to string
+    print (greet show 3)
+    print (greet show False)
