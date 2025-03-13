@@ -4,11 +4,11 @@
 module Patterns where
 
 -- Match on input
-greet :: String -> String
-greet "Finland" name = "Hei" ++ name
-greet "Italy" name = "Ciao" ++ name
-greet "England" name = "Hi" ++ name
-greet _ name = "Hello" ++ name
+greet :: String -> String -> String
+greet "Finland" name = "Hei " ++ name
+greet "Italy" name = "Ciao " ++ name
+greet "England" name = "Hello " ++ name
+greet _ name = "Hi " ++ name
 
 
 main = do
