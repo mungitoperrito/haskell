@@ -23,9 +23,9 @@ circleAreaThree r = pi * square r
 main = do
     print (circleAreaOne 1)
     print (circleAreaOne 3)
-    print('')
+    print(' ')
     print (circleAreaTwo 1)
     print (circleAreaTwo 3)
-    print('')
+    print(' ')
     print (circleAreaThree 1)
     print (circleAreaThree 3)
