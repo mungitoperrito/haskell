@@ -1,4 +1,5 @@
--- To run: stack runhaskell Collatz.hs
+-- To run interactively: stack ghci
+--                       ghci> :load Collatz.hs
 
 module Collatz where
 
