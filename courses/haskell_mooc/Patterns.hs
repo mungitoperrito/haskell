@@ -18,5 +18,7 @@ main = do
     print (greet "England" "Graham")
 
     -- show casts value to string
-    print (greet show 3)
-    print (greet show False)
+    -- The type names match the greet default country
+    -- hgci gets confused without the () around show
+    print (greet "Int" (show 3))
+    print (greet "Boolean" (show False))
