@@ -1,5 +1,8 @@
 -- To run: stack runhaskell Basics.hs
 
+-- This scoping works. 'Shadowing definitions (variables) like rSquare
+--    and pi is considered poor style
+
 -- Limit to one module per file
 module Basics where
 
